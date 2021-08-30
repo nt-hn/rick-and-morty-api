@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+html{
+    background: black url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Night_stars_berlin.png/1280px-Night_stars_berlin.png") repeat;
+    width:100vw;
+    height:100vh;
+}
+
+body {
+    background-size: 400px auto;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color:white;
+}
+
+.title{
+    display: block;
+    width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.Character_image {
+    display: block;
+    width: 300px;
+    margin: 50px auto;
+}
+
+.character_name,
+.character_gender,
+.character_species,
+.character_status,
+.footer{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    font-size: 20px;
+    align-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    border: 1px solid  #66BA4F;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 17px;
+    padding: 8px 20px;
+    color:  #66BA4F;
+    transition: 0.5s;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background:#66BA4F;
+    color: black;
+    box-shadow:3px 3px 20px #448C3F;
+}
+
+.btn:active{
+    box-shadow:1px 1px 7px #448C3F;
+}
+
